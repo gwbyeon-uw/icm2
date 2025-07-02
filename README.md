@@ -2,6 +2,8 @@
 
 **icm2** (in-cell mutate-and-map) is a method to characterize RNA structure inside cells. The experiment generates two-dimensional accessibility mapping data under cellular conditions. This code demonstrates how such data can be used to model RNA secondary structure ensembles. The input here is the .fastq files from Illumina sequencing run for an icm2 experiment. Outputs are a set of visualizations of the data and a set of secondary structures and their weights fitted by REEFFIT. The repository accompanies https://doi.org/10.1038/s41588-021-00830-1 and reproduces the analysis presented in the paper.
 
+The mutation counts matrix code has been updated with Julia version (11/07/2021)
+
 ## Dependencies
 
 Utilities 
@@ -15,9 +17,19 @@ viennarna
 
 Python packages
 ```
-numpy
 rdatkit
 reeffit
+```
+
+Julia packages
+```
+ArgParse
+ColorSchemes
+DataFrames
+DelimitedFiles
+Gadfly
+StatsBase
+XAM
 ```
 
 R packages
