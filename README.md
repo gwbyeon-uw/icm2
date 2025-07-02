@@ -69,7 +69,7 @@ ggrepel
 ```bibtex
 @article{https://doi.org/10.1038/s41588-021-00830-1,
   title={Functional and structural basis of extreme conservation in vertebrate 5' untranslated regions},
-  author={Gun Woo Byeo, Elif Sarinay Cenik, Lihua Jiang, Hua Tang, Rhiju Das, Maria Barna},
+  author={Gun Woo Byeon, Elif Sarinay Cenik, Lihua Jiang, Hua Tang, Rhiju Das, Maria Barna},
   journal={Nature Genetics},
   year={2021}
 }
